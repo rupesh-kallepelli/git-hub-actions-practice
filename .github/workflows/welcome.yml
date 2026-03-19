@@ -4,3 +4,9 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
+jobs:
+  sample_workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Hello
+        run: echo "Sample Workflow"
