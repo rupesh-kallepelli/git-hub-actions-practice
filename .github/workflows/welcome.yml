@@ -5,7 +5,7 @@ on:
 permissions:
   pull-requests: write
 jobs:
-  sample_workflow:
+  welcome:
     runs-on: ubuntu-latest
     steps:
       - name: Echo Hello
